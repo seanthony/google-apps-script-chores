@@ -1,0 +1,1 @@
+This is the backend to a google sheet to assign the chores randomly to students, create a document printout, and send calendar invites.
