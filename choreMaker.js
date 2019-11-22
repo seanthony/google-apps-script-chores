@@ -2,10 +2,11 @@ import 'google-apps-script';
 
 
 function launch() {
-    spreadSheetId = '??';
-    documentId = '??';
-    calendarId = '??';
-    assignChores("September 2, 2019 00:00:00 CDT", spreadSheetId, documentId, calendarId);
+    var spreadSheetId = '??';
+    var documentId = '??';
+    var calendarId = '??';
+    var stringDate = "December 2, 2019 00:00:00 CST";
+    assignChores(stringDate, spreadSheetId, documentId, calendarId);
 }
 
 
